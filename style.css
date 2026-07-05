@@ -1,0 +1,67 @@
+:root{
+    --accent: #4d7cfe;
+    --bg:#0f1d5c;
+    --surface:#676970f9;
+    --text:#e8e8e8;
+    --text-muted:#999;
+}
+body{
+    color: var(--text);
+    background-color: var(--bg);
+    margin: 0;
+}
+.nav{
+
+
+}
+.sidebar{
+    display: flex; /*çocukları flex kurallarıyla düzelt. */
+    align-items: center;
+    width: 400px; /*sütun yönünde align items çocukları yatay eksende hizalar. */
+    background-color: var(--surface);
+    flex-direction: column;
+    
+}
+.sidebar img{
+    
+    height: 200px;
+    width: 200px;
+}
+main {
+    display: flex;
+    background-color: var(--bg);
+    gap: 24px;
+}
+.content{
+    padding: 24px;
+    flex: 1;
+}
+.skills ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+.skills ul li{
+    font-size: 40px;
+}
+.projects article{
+    background-color: var(--surface);
+    border: 1px;
+    border-radius: 20px;
+    padding: 15px;
+    flex: 1;
+}
+.projects{
+}
+.projects .cards{
+    display: flex;
+    gap: 50px;
+}
+.article  .a{
+    color: var(--accent);
+}
+.site-footer{
+    text-align: center;
+    
+}
